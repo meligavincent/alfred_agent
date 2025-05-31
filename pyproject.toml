@@ -1,0 +1,25 @@
+[project]
+name = "alfred-agent"
+version = "0.1.0"
+description = "Alfred agent coded by MELIGA Vincent"
+authors = [
+    {name = "MELIGA Vincent",email = "699580621meliga@gmail.com"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.12,<4.0"
+dependencies = [
+    "pandas (>=2.2.3,<3.0.0)",
+    "huggingface (>=0.0.1,<0.0.2)",
+    "langchain (>=0.3.25,<0.4.0)",
+    "datasets (>=3.6.0,<4.0.0)",
+    "smolagents[toolkit] (>=1.17.0,<2.0.0)",
+    "huggingface-hub (>=0.32.3,<0.33.0)",
+    "langchain-community (>=0.3.24,<0.4.0)",
+    "rank-bm25 (>=0.2.2,<0.3.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
